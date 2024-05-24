@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Melvins Simon Omari">
+  <title>socioNet Responsive social media Website</title>
+  <!-- ========= CSS LINK ========= -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="media.css">
+    <!-- ICON -->
+    <link rel="icon" href="images/story-5.jpg">
+  <!-- =========== GOOGLE ICONS LINK ============ -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>  
+  <!-- ========== NAVIGATION WINDOW =============== -->
+  <header>
+    <nav>
+      <div class="container flex-row">
+         <h2 class="logo">socio<span class="admin">Net</span></h2>
+        <div class="search flex-row">
+          <span class="material-symbols-outlined search-btn">
+            search
+            </span>
+            <input type="search" class="input" placeholder="Search for creators, inspirators and projects">
+        </div>
+        <div class="profile flex-row">
+          <button class="btn loggingOut">Log Out</button>
+          <div class="profile-pic">
+            <img src="images/profile-1.jpg" alt="Profile">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!--============== MAIN SECTION ==============-->
+  <main>
+    <div class="container">
+      <!-- ============= LEFT SECTION ========== -->
+      <div class="left">
+       <div class="left-cont">
+        <div class="side-profile flex-row">
+          <div class="profile-pic">
+            <img src="images/profile-1.jpg">
+          </div>
+          <div class="details">
+            <h3 class="bolded">Melvin Shi</h3>
+            <small class="light">@meloh7</small>
+          </div>
+        </div>
+
+        <!-- ============ NAVIGATION SIDEBAR ============== -->
+        <div class="sidebar">
+          <a class="js-sideA flex-row active">
+            <span class="material-symbols-outlined">
+              home
+            </span><h4 class="bolded">Home</h4>
+          </a>
+
+          <a class="js-sideA flex-row ">
+            <span class="material-symbols-outlined">
+              explore
+            </span><h4 class="bolded">Explore</h4>
+          </a>
+
+          <a class="js-sideA flex-row notificationsp   ">
+            <span class="material-symbols-outlined">
+              notifications <small class="counter counterN">2</small>
+            </span><h4 class="bolded">Notifications</h4>
+            <!-- =========== NOTIFICATIONS POPUP =============== -->
+          <div class="notifications-popup popup">
+           
+            <div class="profile">
+              <div class="profile-pic">
+                <img src="images/profile-7.jpg">
+              </div>
+              <small class="light">@simoh7</small>
+              <div class="message-details">
+                <p><span class="bolded">Melvins Simon</span> has just accepted your friend request.</p>
+                <small class="light">1 HOUR AGO</small>                  
+              </div>
+            </div>
+          
+            <!-- <div class="profile">
+              <div class="profile-pic">
+                <img src="/images/profile-11.jpg">
+              </div>
+              <small class="light">@jerry</small>
+              <div class="message-details">
+                <p><span class="bolded">Jerry Jones</span> commented on your last post.</p>
+                <small class="light">5 HOURS AGO</small>                  
+              </div>
+            </div> -->
+          
+            <div class="profile">
+              <div class="profile-pic">
+                <img src="images/profile-6.jpg">
+              </div>
+              <small class="light">@shally</small>
+              <div class="message-details">
+                <p><span class="bolded">Shalline James</span> and <span class="bolded">236</span> others liked your post.</p>
+                <small class="light">2 DAYS AGO</small>                  
+              </div>
+            </div>
+          
+           
+          </div>
+
+           <!-- =========== END OF NOTIFICATIONS POPUP =============== -->           
+
+              
+          </a>  
+          <a class="js-sideA messA flex-row">
+            <span class="material-symbols-outlined">
+              mail <small class="counter counterM">5</small>
+            </span><h4 class="bolded">Messages</h4>
+          </a>
+
+          <a class="js-sideA flex-row">
+            <span class="material-symbols-outlined">
+              bookmark
+            </span><h4 class="bolded">Bookmark</h4>
+          </a>
+
+          <a class="js-sideA flex-row">
+            <span class="material-symbols-outlined">
+              monitoring
+            </span><h4 class="bolded">Analytics</h4>
+          </a>
+
+          <a class="js-sideA flex-row js-theme">
+            <span class="material-symbols-outlined">
+              contrast
+            </span><h4 class="bolded">Themes</h4>
+          </a>
+
+          <a class="js-sideA flex-row">
+            <span class="material-symbols-outlined">
+              settings
+            </span><h4 class="bolded">Settings</h4>
+          </a>                 
+        </div>
+   
+        
+        <label for="" class="btn post-create-btn loggingOut">Create Post</label>
+       </div>
+     
+        <!-- ========== END OF SIDEBAR NAVGATION ========== -->
+      
+      </div>
+
+      <!-- ============= MIDDLE SECTION ========== -->
+
+     
+      <div class="middle">
+       <div class="stories flex-row">
+
+        <div class="story">
+          <img class="story-img" src="images/story-1.jpg">
+          <div class="profile-pic">
+            <img src="images/profile-1.jpg">
+          </div>
+          <h3 class="name">Your story</h3>
+        </div>
+
+        
+          <div class="story">
+            <img class="story-img" src="images/story-2.jpg">
+            <div class="profile-pic">
+              <img src="images/profile-5.jpg">
+            </div>
+            <h3 class="name">Huana Chang'</h3>
+          </div>
+    
+          <div class="story">
+            <img class="story-img" src="images/story-3.jpg">
+            <div class="profile-pic">
+              <img src="images/profile-10.jpg">
+            </div>
+            <h3 class="name">Winnie Doe</h3>
+          </div>
+        
+         
+          <div class="story">
+            <img class="story-img" src="images/story-5.jpg">
+            <div class="profile-pic">
+              <img src="images/profile-4.jpg">
+            </div>
+            <h3 class="name">Daniela Rose</h3>
+          </div>
+       
+       
+          <div class="story">
+            <img class="story-img" src="images/story-6.jpg">
+            <div class="profile-pic">
+              <img src="images/profile-7.jpg">
+            </div>
+            <h3 class="name">Lillie Kellins</h3>
+          </div>
+         
+          <div class="story">
+            <img class="story-img" src="images/story-4.jpg">
+            <div class="profile-pic">
+              <img src="images/profile-12.jpg">
+            </div>
+            <h3 class="name">Gracy Ali</h3>
+          </div>
+        
+       </div>    
+       
+        <!--========= POST INPUT============ -->
+       <form class="post-input">
+        <div class="search flex-row">
+          <div class="profile-pic">
+            <img src="images/profile-1.jpg" alt="Profile">
+          </div>
+            <input type="text" class="input" placeholder="What's on your mind Melvin?">
+
+           <input type="submit" class="btn" value="Post">
+        </div> 
+       </form>
+       
+      <div class="post-slides">
+        
+       <!-- FIRST POST -->
+        <div class="post">
+
+          <!-- ===== POST HEADER  ===== -->
+          <div class="head flex-row">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-2.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Huana Lowa</h3>
+                <small class="light">Kenya, 25 MINUTES AGO</small>
+              </div>
+            </div>
+            <span class="material-symbols-outlined post-menu">
+              more_horiz
+              </span>
+  
+          </div>
+  
+          <!-- ==== POST CONTENT ===== -->
+          <div class="post-content">
+            <img src="images/feed-1.jpg" >
+            <h4 class="video-time">14:25</h4>
+          </div>
+  
+          <!-- ==== POST CONTROLS ===== -->
+          <div class="controls flex-row">
+            <div class="right-controls flex-row">
+              <span class="material-symbols-outlined">favorite</span>             
+                <span class="material-symbols-outlined">chat</span>             
+                <span class="material-symbols-outlined">share</span>
+            </div>
+            <span class="material-symbols-outlined">bookmark</span>
+          </div>
+  
+          <!-- ==== POST DETAILS ==== -->
+          <div class="post-details">
+            <div class="post-footer"> 
+  
+              <div class="people-likes flex-row">
+                <div class="pics flex-row">
+                  <div class="profile-pic">
+                    <img src="images/profile-7.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-3.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-8.jpg">              
+                  </div>
+                </div>
+                <small>Liked by <span class="bolded">Melvins Simon</span> and <b class="like-counter">16,980 others</b>.</small>
+              </div> 
+  
+              <div class="message-details">
+                <small><span class="bolded">Melvins Simon</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente. <b>#Lifestyle</b></small>
+                <small class="light view-comment">View all 564 comments</small>                  
+              </div>
+            </div>
+          </div>
+         </div>
+  
+  
+         <!-- SECOND POST -->
+  
+         <div class="post">
+  
+          <!-- ===== POST HEADER  ===== -->
+          <div class="head flex-row">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-3.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Juliana Phoe</h3>
+                <small class="light">USA, 50 MINUTES AGO</small>
+              </div>
+            </div>
+            <span class="material-symbols-outlined post-menu">
+              more_horiz
+              </span>
+  
+          </div>
+  
+          <!-- ==== POST CONTENT ===== -->
+          <div class="post-content">
+            <img src="images/feed-4.jpg" >
+            <h4 class="video-time">9:05</h4>
+          </div>
+  
+          <!-- ==== POST CONTROLS ===== -->
+          <div class="controls flex-row">
+            <div class="right-controls flex-row">
+              <span class="material-symbols-outlined liked">favorite</span>             
+                <span class="material-symbols-outlined">chat</span>             
+                <span class="material-symbols-outlined">share</span>
+            </div>
+            <span class="material-symbols-outlined">bookmark</span>
+          </div>
+  
+          <!-- ==== POST DETAILS ==== -->
+          <div class="post-details">
+            <div class="post-footer"> 
+  
+              <div class="people-likes flex-row">
+                <div class="pics flex-row">
+                  <div class="profile-pic">
+                    <img src="images/profile-9.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-4.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-1.jpg">              
+                  </div>
+                </div>
+                <small>Liked by <span class="bolded">You</span> and <b class="like-counter">1,896 others</b>.</small>
+              </div> 
+  
+              <div class="message-details">
+                <small><span class="bolded">Secrets of</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente. <b>#Lifestyle</b></small>
+                <small class="light view-comment">View all 64 comments</small>                  
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <!-- THIRD POST -->
+         <div class="post">
+  
+          <!-- ===== POST HEADER  ===== -->
+          <div class="head flex-row">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-11.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Jerry Jones</h3>
+                <small class="light">Kenya, 3 HOURS AGO</small>
+              </div>
+            </div>
+            <span class="material-symbols-outlined post-menu">
+              more_horiz
+              </span>
+  
+          </div>
+  
+          <!-- ==== POST CONTENT ===== -->
+          <div class="post-content">
+            <img src="images/feed-6.jpg" >
+            <h4 class="video-time">19:05</h4>
+          </div>
+  
+          <!-- ==== POST CONTROLS ===== -->
+          <div class="controls flex-row">
+            <div class="right-controls flex-row">
+              <span class="material-symbols-outlined liked">favorite</span>             
+                <span class="material-symbols-outlined">chat</span>             
+                <span class="material-symbols-outlined">share</span>
+            </div>
+            <span class="material-symbols-outlined">bookmark</span>
+          </div>
+  
+          <!-- ==== POST DETAILS ==== -->
+          <div class="post-details">
+            <div class="post-footer"> 
+  
+              <div class="people-likes flex-row">
+                <div class="pics flex-row">
+                  <div class="profile-pic">
+                    <img src="images/profile-7.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-4.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-1.jpg">              
+                  </div>
+                </div>
+                <small>Liked by <span class="bolded">You</span> and <b class="like-counter">5,896 others</b>.</small>
+              </div> 
+  
+              <div class="message-details">
+                <small><span class="bolded">Technology is</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente. <b>#Technology</b></small>
+                <small class="light view-comment">View all 1,232 comments</small>                  
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <!-- FOURTH POST -->
+         <div class="post">
+  
+          <!-- ===== POST HEADER  ===== -->
+          <div class="head flex-row">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-12.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Gracy Ali</h3>
+                <small class="light">UK, 4 HOURS AGO</small>
+              </div>
+            </div>
+            <span class="material-symbols-outlined post-menu">
+              more_horiz
+              </span>
+  
+          </div>
+  
+          <!-- ==== POST CONTENT ===== -->
+          <div class="post-content">
+            <img src="images/feed-7.jpg" >
+            <h4 class="video-time">10:12</h4>
+          </div>
+  
+          <!-- ==== POST CONTROLS ===== -->
+          <div class="controls flex-row">
+            <div class="right-controls flex-row">
+              <span class="material-symbols-outlined">favorite</span>             
+                <span class="material-symbols-outlined">chat</span>             
+                <span class="material-symbols-outlined">share</span>
+            </div>
+            <span class="material-symbols-outlined">bookmark</span>
+          </div>
+  
+          <!-- ==== POST DETAILS ==== -->
+          <div class="post-details">
+            <div class="post-footer"> 
+  
+              <div class="people-likes flex-row">
+                <div class="pics flex-row">
+                  <div class="profile-pic">
+                    <img src="images/profile-2.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-11.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-12.jpg">              
+                  </div>
+                </div>
+                <small>Liked by <span class="bolded">Jerry Jones</span> and <b class="like-counter">1,007 others</b>.</small>
+              </div> 
+  
+              <div class="message-details">
+                <small><span class="bolded">Modern Life</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente. <b>#Lifestyle</b></small>
+                <small class="light view-comment">View all 543 comments</small>                  
+              </div>
+            </div>
+          </div>
+         </div>
+  
+         <!-- LAST POST -->
+         <div class="post">
+  
+          <!-- ===== POST HEADER  ===== -->
+          <div class="head flex-row">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-15.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Hulio JJ</h3>
+                <small class="light">Australia, 6 HOURS AGO</small>
+              </div>
+            </div>
+            <span class="material-symbols-outlined post-menu">
+              more_horiz
+              </span>
+  
+          </div>
+  
+          <!-- ==== POST CONTENT ===== -->
+          <div class="post-content">
+            <img src="images/feed-5.jpg" >
+            <h4 class="video-time">3:04</h4>
+          </div>
+  
+          <!-- ==== POST CONTROLS ===== -->
+          <div class="controls flex-row">
+            <div class="right-controls flex-row">
+              <span class="material-symbols-outlined liked">favorite</span>             
+                <span class="material-symbols-outlined">chat</span>             
+                <span class="material-symbols-outlined">share</span>
+            </div>
+            <span class="material-symbols-outlined">bookmark</span>
+          </div>
+  
+          <!-- ==== POST DETAILS ==== -->
+          <div class="post-details">
+            <div class="post-footer"> 
+  
+              <div class="people-likes flex-row">
+                <div class="pics flex-row">
+                  <div class="profile-pic">
+                    <img src="images/profile-1.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-11.jpg">              
+                  </div>
+                  <div class="profile-pic ">
+                    <img src="images/profile-2.jpg">              
+                  </div>
+                </div>
+                <small>Liked by <span class="bolded">You</span> and <b class="like-counter">12,097 others</b>.</small>
+              </div> 
+  
+              <div class="message-details">
+                <small><span class="bolded">New Trailer of</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente. <b>#Entertainment</b></small>
+                <small class="light view-comment">View all 9,783 comments</small>                  
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+
+      </div>
+
+      <!-- ============= RIGHT SECTION ========== -->
+      <div class="right">
+
+        <!--Messages  -->
+        <div class="messages">
+
+          <div class="message-head flex-row">
+            <h3 class="bolded">Messages</h3>
+            <span class="material-symbols-outlined">
+              edit_note
+              </span>              
+          </div>
+
+          <div class="search flex-row">
+            <span class="material-symbols-outlined search-btn">
+              search
+              </span>
+              <input type="search" id="inputSearchMess" class="input" placeholder="Search Messages">
+          </div> 
+
+          <div class="message-nav">
+
+            <div class="nav-title flex-row">
+              <h3 class="bolded js-pri primary js-title activeG">Primary</h3>
+              <h3 class="bolded js-title">General</h3>
+              <h3 class="bolded js-request js-title">Requests</h3>
+            </div>          
+
+            <!-- MESSAGE BOX -->
+            <div class="message-box"> 
+
+              <div class="side-profile flex-row message1">
+              
+               <div class="dot">
+                <div class="profile-pic">
+                  <img src="images/profile-2.jpg">
+                  <div class="online-dot"></div>                  
+                </div>
+                
+               </div>                       
+              
+
+                <div class="details">
+                  <h3 class="bolded">Huana Lowa</h3>
+                  <small class="bolded">Hey I've got smth for you, please call me.</small>
+                </div>
+              </div>
+
+              <div class="side-profile flex-row message1">
+                <div class="profile-pic">
+                  <img src="images/profile-12.jpg">
+                </div>
+                <div class="details">
+                  <h3 class="bolded">Gracy ALi</h3>
+                  <small class="light">Thanks i recieved it.</small>
+                </div>
+              </div>
+
+              <div class="side-profile flex-row message1">
+                <div class="dot">
+                  <div class="profile-pic">
+                    <img src="images/profile-11.jpg">
+                     <!-- <div class="online-dot"></div> -->
+                  </div>
+                </div>
+                <div class="details">
+                  <h3 class="bolded">Jerry Jones</h3>
+                  <small class="bolded">Alright,,,</small>
+                </div>
+              </div>
+              <div class="side-profile flex-row message1">
+                <div class="dot">
+                  <div class="profile-pic">
+                    <img src="images/profile-4.jpg">
+                    <div class="online-dot"></div>
+                  </div>
+                </div>
+                <div class="details">
+                  <h3 class="bolded">Ivie Emmah</h3>
+                  <small class="bolded">3 Messages</small>
+                </div>
+              </div>
+              <div class="side-profile flex-row message1">
+                <div class="dot">
+                  <div class="profile-pic">
+                    <img src="images/profile-7.jpg">
+                    <div class="online-dot"></div> 
+                  </div>
+                </div>
+                <div class="details">
+                  <h3 class="bolded">Jack Mah</h3>
+                  <small class="light">Your post bruh...</small>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+       <!-- FRIEND REQUESTS -->
+        <div class="friends friendView">
+         
+          <div class="profile">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-10.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Hwayi Hu</h3>
+                <small class="light">3 Mutual friends</small>
+              </div>
+            </div>
+             <div class="friend-request-btn">
+                <label for="" class="btn">Accept</label>
+                <label for="" class="btn">Decline</label>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-13.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Shanny Loe</h3>
+                <small class="light">9 Mutual friends</small>
+              </div>
+            </div>
+             <div class="friend-request-btn">
+                <label for="" class="btn">Accept</label>
+                <label for="" class="btn">Decline</label>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-14.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Karas Nhanzi</h3>
+                <small class="light">3 Mutual friends</small>
+              </div>
+            </div>
+             <div class="friend-request-btn">
+                <label for="" class="btn">Accept</label>
+                <label for="" class="btn">Decline</label>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="side-profile flex-row">
+              <div class="profile-pic">
+                <img src="images/profile-16.jpg">
+              </div>
+              <div class="details">
+                <h3 class="bolded">Femmy Floe</h3>
+                <small class="light">1 Mutual friend</small>
+              </div>
+            </div>
+             <div class="friend-request-btn">
+                <label for="" class="btn">Accept</label>
+                <label for="" class="btn">Decline</label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+
+    </div>   
+  </main> 
+ <!-- THEME CUSTOMIZATION POPUP -->
+<div class="themes">
+  <div class="theme-card">
+    <div class="theme-header">
+      <h2>View Customizatiom</h2>
+      <h3 class="light">Change the apearance of the platform as you wish</h3>
+    </div>
+  
+    <!-- font size -->
+    <div class="change-size">
+      <h4 >Font-size</h4>
+      <div class="size-menu flex-row">
+        <h4>Aa</h4>
+        <div class="size-slider flex-row">
+          <span class="span-dot fnt font-size1 "></span>
+          <span class="span-dot fnt font-size2"></span>
+          <span class="span-dot fnt font-size3 fontActive"></span>
+          <span class="span-dot fnt font-size4"></span>
+          <span class="span-dot fnt font-size5"></span>
+          <span class="span-dot fnt font-size6"></span>
+        </div>
+        <h2>Aa</h2>
+      </div>
+    </div>
+  
+    <!-- Primary Color -->
+  
+    <div class="change-color">
+      <h4 >Primary color</h4>
+        <div class="pri-color flex-row">
+          <span class="span-dot font-color1"></span>
+          <span class="span-dot font-color2"></span>
+          <span class="span-dot font-color3"></span>
+          <span class="span-dot font-color4"></span>
+          <span class="span-dot font-color5"></span>
+        </div>   
+    </div>
+  
+    <!-- Background color -->
+    <div class="change-background">
+      <h4 >Background color</h4>
+        <div class="bac-color flex-row">
+          <a class="flex-row bac1">
+            <span class="span-dot bac-color1 "></span>
+          <h4 style="color: black;">Light</h4>
+          </a>
+          <a class="flex-row bac2">
+            <span class="span-dot span-dot2 bac-color2"></span>
+          <h4>Dim</h4>
+          </a>
+          <a class="flex-row bac3">
+            <span class="span-dot span-dot2 bac-color3 "></span>
+          <h4>Dark</h4>
+          </a>
+        </div>   
+   </div>
+   <div class="close">
+    <label for="" class="btn">Close</label>
+   </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
